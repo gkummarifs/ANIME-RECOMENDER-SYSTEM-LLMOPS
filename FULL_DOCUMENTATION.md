@@ -134,6 +134,9 @@
 git config --global user.email "gyrogodnon@gmail.com"
 git config --global user.name "data-guru0"
 
+git config --global user.email "gkummarifs@gmail.com"
+git config --global user.name "gkummarifs"
+
 git add .
 git commit -m "commit"
 git push origin main
