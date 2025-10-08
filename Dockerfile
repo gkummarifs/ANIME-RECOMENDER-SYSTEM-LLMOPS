@@ -24,4 +24,7 @@ RUN pip install --no-cache-dir -e .
 EXPOSE 8501
 
 # Run the app 
-CMD ["streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
+#CMD ["streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
+
+# Run Streamlit (use app.py in the root directory)
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true"]
